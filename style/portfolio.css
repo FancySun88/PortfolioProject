@@ -1,7 +1,16 @@
+/* font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif; */
+
 body {
-  background-color: blue;
+  background-color: antiquewhite;
+  margin: 20px;
 }
 
 h1 {
   color: blueviolet;
+  font-family: "Playfair Display", serif;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
 }

@@ -9,26 +9,48 @@
 }
 body {
   background: var(--background-color);
+  color: var(--text-color);
   border-radius: 15px;
+  font-family: var(--main-font-family);
 }
 
 h1 {
   font-size: 96px;
   font-family: var(--headings-font-family);
   color: var(--headings-color);
+  font-style: normal;
+  font-weight: 700;
+  line-height: 128px;
+}
+
+h2 {
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 54px;
+  margin-bottom: 0;
 }
 
 h3 {
-  font-family: var(--headings-font-family);
   font-size: 24px;
-  font-weight: 500;
+  font-weight: 400;
+  line-height: 36px;
 }
-h2 {
-  font-family: var(--main-font-family);
-  font-size: 36px;
-  font-weight: bold;
-}
+
 .hero {
   background-color: var(--primary-color);
   text-align: center;
+  padding: 160px 20px;
+  max-width: 1440px;
+  max-height: 900px;
+}
+
+.btn-branding {
+  background: var(--btn-color);
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 18px 30px;
+  border-radius: 4px;
 }

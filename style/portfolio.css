@@ -61,12 +61,28 @@ h4 {
   margin-top: 47px;
   text-align: center;
 }
+
+footer .contact-box {
+  background-color: var(--primary-color);
+  margin: 15px 60px;
+  padding: 120px 50px;
+  border-radius: 20px;
+}
+.contact-box p,
 .content h2,
 .main-page-content a {
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 27px;
+}
+
+.contact-box h5 {
+  font-family: var(--headings-font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
 }
 
 .content h1,
@@ -108,6 +124,30 @@ h4 {
   line-height: 36px;
 }
 
+footer .mail-link {
+  text-decoration: none;
+  font-size: 24px;
+  color: var(--headings-color);
+}
+
+footer .social-media a {
+  margin: 0 20px;
+  color: var(--btn-color);
+  background-color: var(--primary-color);
+  padding: 10px 14px;
+  font-size: 18px;
+  border-radius: 50%;
+  transition: all 150ms ease-in-out;
+}
+
+footer .social-media a:hover {
+  color: var(--primary-color);
+  background-color: var(--btn-color);
+}
+
+footer .mail-link:hover {
+  color: var(--btn-color);
+}
 @media (max-width: 756px) {
   .project-description {
     margin: 0;
